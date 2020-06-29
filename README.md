@@ -23,3 +23,4 @@ Readers should then read the [Best Common Practice document](bcp-003-01-securing
 - [CONTRIBUTING.md](CONTRIBUTING.md) -- information about contributing to the Specification
 - [LICENSE](LICENSE) -- Licenses for software and text documents
 - [NOTICE](NOTICE) -- Disclaimer
+- [Makefile](Makefile) -- Makefile for Continuous Integration
