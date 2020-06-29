@@ -18,7 +18,7 @@ Readers should then read the [Best Common Practice document](bcp-003-01-securing
 ## Contents
 
 - [README.md](README.md) -- This file
-- [bcp-003-01-securing-communications.md](bcp-003-01-securing-communications.md) -- Best Common Practice document
+- [docs/1.0. Secure Communication.md](docs/1.0.%20Secure%20Communication.md) -- Best Common Practice document
 - [CHANGELOG.md](CHANGELOG.md) -- Version history
 - [CONTRIBUTING.md](CONTRIBUTING.md) -- information about contributing to the Specification
 - [LICENSE](LICENSE) -- Licenses for software and text documents
