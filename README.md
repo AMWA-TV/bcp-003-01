@@ -1,4 +1,4 @@
-# AMWA BCP-003-01 Securing Communications in NMOS Systems
+# AMWA BCP-003-01 Secure Communication in NMOS Systems
 
 [![Build Status](https://travis-ci.com/AMWA-TV/nmos-secure-communication.svg?branch=v1.0.x)](https://travis-ci.com/AMWA-TV/nmos-secure-communication)
 
