@@ -11,7 +11,7 @@ Readers are advised to be familiar with:
 - The [overview of Networked Media Open Specifications](https://amwa-tv.github.io/nmos)
 - The [overview of Best Practices for NMOS Security](https://amwa-tv.github.io/nmos-api-security)
 
-Readers should then read the [Best Common Practice document](bcp-003-01-securing-communications.md).
+Readers should then read the [Best Common Practice document](docs/1.0.%20Secure%20Communication.md).
 
 > HTML rendered versions of all NMOS Specifications are available on the [NMOS GitHub pages](https://amwa-tv.github.io/nmos)
 
