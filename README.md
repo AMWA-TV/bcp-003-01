@@ -1,6 +1,7 @@
 # AMWA BCP-003-01 Secure Communication in NMOS Systems
 
-[![Build Status](https://travis-ci.com/AMWA-TV/nmos-secure-communication.svg?branch=v1.0.x)](https://travis-ci.com/AMWA-TV/nmos-secure-communication)
+[![Lint Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ARender)
 
 This repository contains details of this AMWA Best Current Practice for how secure communications used for HTTP and WebSocket communications within NMOS APIs.
 
