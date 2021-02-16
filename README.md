@@ -3,7 +3,7 @@
 [![Lint Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ALint)
 [![Render Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ARender)
 
-[//]: # "INTRO-START"
+<!-- INTRO-START -->
 
 ### What does it do?
 
@@ -20,7 +20,7 @@
 - Recommends using TLS 1.2 or better for HTTP and WebSocket messages.
 - Recommends cipher suites.
 
-[//]: # "INTRO-END"
+<!-- INTRO-END -->
 
 ## Getting started
 
