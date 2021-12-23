@@ -1,7 +1,7 @@
 # AMWA BCP-003-01 Secure Communication in NMOS Systems
 
-[![Lint Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ALint)
-[![Render Status](https://github.com/AMWA-TV/nmos-secure-communication/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-secure-communication/actions?query=workflow%3ARender)
+[![Lint Status](https://github.com/AMWA-TV/bcp-003-01/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/bcp-003-01/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/bcp-003-01/workflows/Render/badge.svg)](https://github.com/AMWA-TV/bcp-003-01/actions?query=workflow%3ARender)
 
 <!-- INTRO-START -->
 
