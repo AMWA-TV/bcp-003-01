@@ -11,6 +11,10 @@ A Controller is Client software that interacts with the NMOS APIs to discover, c
   It does not cover other features of the Controller software, such as presentation.
 * This document does not cover any requirements relating to where a Controller is additionally acting as a Node (e.g. receiving monitoring information via IS-07).
 
+## User
+
+Where this document refers to the "user" of a Controller, this includes both human operators who drive the Controller manually and automation systems that drive the Controller programmatically.
+
 ## Secure NMOS Controller
 
 ### Secure Communications	
