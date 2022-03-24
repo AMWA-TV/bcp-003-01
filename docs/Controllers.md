@@ -25,11 +25,11 @@ Where a Controller has been configured to enable secure communication channels t
 
 ### Execution Environment
 
-An Controller MAY delegate fully or partially the establishment of secure communication channel to services in the execution environment.
+A Controller MAY delegate fully or partially the establishment of secure communication channel to services in the execution environment.
 
 The Controller and those services MUST collectively fulfill the requirements in this specification.
  
-An Controller MUST only delegate to services that fulfill the following requirements and recommendations.
+A Controller MUST only delegate to services that fulfill the following requirements and recommendations.
 
 ## TLS
 
@@ -41,23 +41,23 @@ Controllers MUST follow the Client Behaviour requirements set out in the [Client
 
 ### Certificate Management
 
-An Controller or its execution environment MUST provide a secure mechanism for installing, storing and removing X.509 v3 client certificate and its associated private key.
+A Controller or its execution environment MUST provide a secure mechanism for installing, storing and removing X.509 v3 client certificate and its associated private key.
 
 Either controller, or controller environment should provide a secure mechanism for installing, storing and removing the CA certificates
 
 ### HTTP
 
-An Controller acting as an HTTP client, configured to use a secure communication channel MUST only make HTTPS requests using a TLS version and cipher suite allowed by this specification.
+A Controller acting as an HTTP client, configured to use a secure communication channel MUST only make HTTPS requests using a TLS version and cipher suite allowed by this specification.
 
-An Controller MUST not allow HTTP requests that do not use TLS.
+A Controller MUST not allow HTTP requests that do not use TLS.
 It MUST check the validity of the server’s certificate and MUST NOT continue the communication with a server after a failed TLS handshake, except with the express permission of the user.
 
 ### WebSocket
 
-An Controller acting as a WebSocket (WS) client, configured to use a secure communication channel MUST only make Secure WebSocket (WSS) requests using a TLS version and cipher suite allowed by this specification,
+A Controller acting as a WebSocket (WS) client, configured to use a secure communication channel MUST only make Secure WebSocket (WSS) requests using a TLS version and cipher suite allowed by this specification,
 and MUST NOT make non-Secure WebSocket (WS) requests.
 
 ### Other Protocols	
 
-An Controller acting as a client, configured to use a secure communication channel using any other protocol that supports TLS MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS. 
+A Controller acting as a client, configured to use a secure communication channel using any other protocol that supports TLS MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS. 
 
