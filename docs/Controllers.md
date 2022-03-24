@@ -25,9 +25,9 @@ Where a Controller has been configured to enable secure communication channels t
 
 ### Execution Environment
 
-A Controller MAY delegate fully or partially the establishment of secure communication channel to services in the execution environment.
+A Controller MAY delegate fully or partially the establishment of secure communication channels to services in the execution environment.
 
-The Controller and those services MUST collectively fulfill the requirements in this specification.
+Collectively, the Controller and those services MUST fulfill the requirements in this specification.
  
 A Controller MUST only delegate to services that fulfill the following requirements and recommendations.
 
@@ -43,7 +43,7 @@ Controllers MUST follow the Client Behaviour requirements set out in the [Client
 
 A Controller or its execution environment MUST provide a secure mechanism for installing, storing and removing X.509 v3 client certificate and its associated private key.
 
-Either controller, or controller environment should provide a secure mechanism for installing, storing and removing the CA certificates
+Either controller, or controller environment should provide a secure mechanism for installing, storing and removing the CA certificates.
 
 ### HTTP
 
