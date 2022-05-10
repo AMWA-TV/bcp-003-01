@@ -45,7 +45,7 @@ Controllers MUST follow the requirements set out in the [Client Behaviour sectio
 
 A Controller or its execution environment MUST provide a secure mechanism for installing, storing and removing X.509 v3 client certificate and its associated private key.
 
-Either the Controller or the controller environment should provide a secure mechanism for installing, storing and removing the Certificate Authority (CA) certificates.
+Either the Controller or the controller environment SHOULD provide a secure mechanism for installing, storing and removing the Certificate Authority (CA) certificates.
 
 ### HTTP
 
