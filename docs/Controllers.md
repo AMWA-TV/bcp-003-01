@@ -27,37 +27,36 @@ Where a Controller has been configured to enable secure communication channels t
 
 A Controller MAY delegate fully or partially the establishment of secure communication channels to services in the execution environment.
 
-Collectively, the Controller and those services MUST fulfill the requirements in this specification.
+Collectively, the Controller and those services MUST fulfil the requirements in this specification.
  
-A Controller MUST only delegate to services that fulfill the following requirements and recommendations.
+A Controller MUST only delegate to services that fulfil the following requirements and recommendations.
 
 ## TLS
 
-Controllers MUST follow the TLS requirements set out in the [TLS section of the Secure Communications document](Secure%20Communication.md#tls) in this specification.
+Controllers MUST follow the requirements set out in the [TLS section of the Secure Communications document](Secure%20Communication.md#tls) in this specification.
+
+A Controller MUST check the validity of a server's certificate and MUST NOT continue the communication with a server after a failed TLS handshake, except with the express permission of the user.
 
 ## Client Behaviour
 
-Controllers MUST follow the Client Behaviour requirements set out in the [Client Behaviour section of the Secure Communications document](Secure%20Communication.md#client-behaviour) along with the following requirements:
+Controllers MUST follow the requirements set out in the [Client Behaviour section of the Secure Communications document](Secure%20Communication.md#client-behaviour), along with the following requirements.
 
 ### Certificate Management
 
 A Controller or its execution environment MUST provide a secure mechanism for installing, storing and removing X.509 v3 client certificate and its associated private key.
 
-Either controller, or controller environment should provide a secure mechanism for installing, storing and removing the CA certificates.
+Either the Controller or the controller environment should provide a secure mechanism for installing, storing and removing the Certificate Authority (CA) certificates.
 
 ### HTTP
 
-A Controller acting as an HTTP client, configured to use a secure communication channel MUST only make HTTPS requests using a TLS version and cipher suite allowed by this specification.
-
-A Controller MUST not allow HTTP requests that do not use TLS.
-It MUST check the validity of the server’s certificate and MUST NOT continue the communication with a server after a failed TLS handshake, except with the express permission of the user.
+A Controller acting as an HTTP client, configured to use a secure communication channel MUST only make HTTPS requests (`https://`) using a TLS version and cipher suite allowed by this specification. It MUST NOT make insecure HTTP requests (`http://`) that do not use TLS.
 
 ### WebSocket
 
-A Controller acting as a WebSocket (WS) client, configured to use a secure communication channel MUST only make Secure WebSocket (WSS) requests using a TLS version and cipher suite allowed by this specification,
-and MUST NOT make non-Secure WebSocket (WS) requests.
+A Controller acting as a WebSocket client, configured to use a secure communication channel, MUST only make Secure WebSocket (`wss://`) requests using a TLS version and cipher suite allowed by this specification,
+and MUST NOT make insecure WebSocket (`ws://`) requests.
 
 ### Other Protocols	
 
-A Controller acting as a client, configured to use a secure communication channel using any other protocol that supports TLS MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS. 
+A Controller acting as a client, configured to use a secure communication channel using any other protocol that supports TLS, MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS. 
 
