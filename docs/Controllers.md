@@ -49,7 +49,7 @@ Either the Controller or the controller environment should provide a secure mech
 
 ### HTTP
 
-A Controller acting as an HTTP client, configured to use a secure communication channel MUST only make HTTPS requests (`https://`) using a TLS version and cipher suite allowed by this specification. It MUST NOT make insecure HTTP requests (`http://`) that do not use TLS.
+A Controller acting as an HTTP client, configured to use a secure communication channel, MUST only make HTTPS requests (`https://`) using a TLS version and cipher suite allowed by this specification. It MUST NOT make insecure HTTP requests (`http://`).
 
 ### WebSocket
 
