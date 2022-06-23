@@ -36,7 +36,7 @@ and are referenced as hyperlinks within the main body.
 
 ## Definitions
 
-_See also the NMOS Glossary, and definitions within RFCs._
+See also the [NMOS Glossary][Glossary], and definitions within RFCs.
 
 ### API
 
@@ -429,6 +429,9 @@ including [REST Security][OWASP-REST] and
 BBC R&D White Papers [337][BBC-WHP337] and [338][BBC-WHP338] provide more information about
 securing NMOS APIs with TLS and PKI, and many references to online resources and
 test tools. [337][BBC-WHP337] also discusses IPv6.
+
+[Glossary]: https://specs.amwa.tv/nmos/main/docs/Glossary.html
+"NMOS Glossary"
 
 [RFC-2119]: https://tools.ietf.org/html/rfc2119
 "Key words for use in RFCs to Indicate Requirement Levels"
