@@ -15,7 +15,7 @@ Where this document refers to a User, this can include both human operators who 
 
 ## Secure Controller
 
-### Secure Communications	
+### Secure Communications
 
 An NMOS system with secure commmunication is one in which Controllers, Nodes, Registries, and other servers, both support and have been configured to enable the security requirements described in this specification.
 
@@ -26,7 +26,7 @@ Where a Controller has been configured to enable secure communication channels t
 A secure Controller MAY delegate fully or partially the establishment of secure communication channels to services in the execution environment.
 
 Collectively, the Controller and those services MUST fulfil the requirements in this specification.
- 
+
 A Controller MUST only delegate to services that fulfil the following requirements and recommendations.
 
 ## TLS
@@ -54,6 +54,6 @@ A secure Controller acting as an HTTP client MUST only make HTTPS requests (`htt
 A secure Controller acting as a WebSocket client MUST only make Secure WebSocket (`wss://`) requests using a TLS version and cipher suite allowed by this specification,
 and MUST NOT make insecure WebSocket (`ws://`) requests.
 
-### Other Protocols	
+### Other Protocols
 
-A secure Controller, acting as a client using any other protocol that supports TLS, MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS. 
+A secure Controller, acting as a client using any other protocol that supports TLS, MUST only make requests using a TLS version and cipher suite allowed by this document. It MUST only make requests using TLS.
