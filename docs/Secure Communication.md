@@ -206,11 +206,11 @@ and certificate revocation can be a significant overhead.
 
 Wildcard certificates SHOULD NOT be used.
 
-Certificates SHOULD contain the Subject Alternate Name (SAN) extension. The Subject Alternate Name
+Certificates SHOULD contain the Subject Alternative Name (SAN) extension. The Subject Alternative Name
 field SHOULD contain the Common Name (CN), and any other names the server is known by,
 [to ensure client compatibility][Digicert].
 
-Certificates SHOULD NOT use IP addresses as the Common Name or as a Subject Alternate Name.
+Certificates SHOULD NOT use IP addresses as the Common Name or as a Subject Alternative Name.
 
 There SHALL be a way of revoking Certificates that are no longer needed or compromised.
 
@@ -317,7 +317,7 @@ Servers SHOULD NOT advertise multicast DNS-SD, except where a DNS server is not 
   - As of version v1.2, AMWA IS-04 includes DNS-SD announcements of Node APIs.
     However, these may be deprecated and removed from later versions of the spec.
 
-Servers SHALL use a name listed in the Common Name and/or Subject Alternate Name fields of its certificate
+Servers SHALL use a name listed in the Common Name and/or Subject Alternative Name fields of its certificate
 in DNS-SD advertisements whether unicast or multicast.
 
 ## Client Behaviour
