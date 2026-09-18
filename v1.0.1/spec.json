@@ -1,0 +1,28 @@
+{
+  "amwa_id": "BCP-003-01",
+  "url": "https://specs.amwa.tv/bcp-003-01",
+  "name": "Secure Communications in NMOS Systems",
+  "status": "AMWA Specification",
+  "repo_name": "bcp-003-01",
+  "alt_repo_name": "nmos-secure-communication",
+  "repo_url": "https://github.com/AMWA-TV/bcp-003-01",
+  "releases": [
+    "v1.0.1"
+  ],
+  "default_branch": "v1.0.x",
+  "show_in_index": true,
+  "intro": {
+    "what_does_it_do": [
+      "Documents best practice for using secure transport for NMOS API communications."
+    ],
+    "why_does_it_matter": [
+      "A secure control plane is essential.",
+      "Need to ensure encryption is sufficient.",
+      "These recommendations allow interoperability using widely adopted open technologies."
+    ],
+    "how_does_it_work": [
+      "Recommends using TLS 1.2 or better for HTTP and WebSocket messages.",
+      "Recommends cipher suites."
+    ]
+  }
+}
